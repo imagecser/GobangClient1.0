@@ -34,6 +34,12 @@ struct Situ {
 	int sleep1;
 	int die;
 	Situ() {
-		live1 = 0; live2 = 0; live3 = 0; live4 = 0; sleep4 = 0; sleep3 = 0; sleep2 = 0; sleep1 = 0; win = 0; die = 0;
+		live1 = 0; live2 = 0; live3 = 0; live4 = 0; sleep4 = 0; 
+		sleep3 = 0; sleep2 = 0; sleep1 = 0; win = 0; die = 0;
 	}
+};
+
+struct Com {
+	Situ me;
+	Situ op;
 };
