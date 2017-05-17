@@ -44,3 +44,8 @@ struct Com {
 	Situ op;
 };
 
+struct Pos {
+	int r;
+	int c;
+	int sc;
+};
