@@ -43,3 +43,4 @@ struct Com {
 	Situ me;
 	Situ op;
 };
+
